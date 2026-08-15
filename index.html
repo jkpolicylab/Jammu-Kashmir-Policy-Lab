@@ -668,6 +668,79 @@
     padding-top: 18px;
     font-size: 12px;
     color: #94a3b8;
+}/* =========================================
+   JKPL CENTERED FOOTER
+   ========================================= */
+
+.jkpl-footer-centered {
+    text-align: center;
+    padding: 55px 20px 30px;
+}
+
+.jkpl-footer-brand {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.jkpl-footer-tagline {
+    font-size: 15px;
+    color: rgba(255,255,255,0.72);
+    margin-bottom: 30px;
+}
+
+.jkpl-social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.jkpl-social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 17px;
+    border: 1px solid rgba(255,255,255,0.20);
+    border-radius: 4px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.jkpl-social-links a:hover {
+    background: rgba(255,255,255,0.08);
+    border-color: rgba(255,255,255,0.40);
+}
+
+.jkpl-footer-email {
+    margin-bottom: 30px;
+}
+
+.jkpl-footer-email a {
+    color: rgba(255,255,255,0.82);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.jkpl-footer-email a:hover {
+    color: #ffffff;
+}
+
+.jkpl-footer-divider {
+    height: 1px;
+    background: rgba(255,255,255,0.12);
+    max-width: 100%;
+    margin: 0 auto 25px;
+}
+
+.jkpl-footer-copyright {
+    font-size: 13px;
+    color: rgba(255,255,255,0.55);
 }
     </style>
 </head>
@@ -1188,42 +1261,15 @@
 
         <div class="container">
 
-            <div class="footer-grid">
+            <div class="jkpl-footer-centered">
 
-                <div>
+    <div class="jkpl-footer-brand">
+        Jammu Kashmir Policy Lab
+    </div>
 
-                    <div class="footer-brand">
-                        Jammu Kashmir Policy Lab
-                    </div>
-
-                    <p>
-                        Independent research and policy institute focused on
-                        governance, institutional reform, conflict
-                        transformation and public policy.
-                    </p>
-
-                </div>
-
-
-                <div>
-
-                    <h3>
-                        Explore
-                    </h3>
-
-                    <a href="#about">About</a>
-                    <a href="#research">Research</a>
-                    <a href="#publications">Publications</a>
-                    <a href="#approach">Our Approach</a>
-
-                </div>
-
-
-                <div>
-
-    <h3>
-        Connect with JKPL
-    </h3>
+    <div class="jkpl-footer-tagline">
+        Independent research and policy institute
+    </div>
 
     <div class="jkpl-social-links">
 
@@ -1253,19 +1299,19 @@
 
     </div>
 
-    <a href="#home">
-        Back to top ↑
-    </a>
+    <div class="jkpl-footer-email">
+        <a href="mailto:contactjkpl.org@gmail.com">
+            contactjkpl.org@gmail.com
+        </a>
+    </div>
+
+    <div class="jkpl-footer-divider"></div>
+
+    <div class="jkpl-footer-copyright">
+        © 2026 Jammu Kashmir Policy Lab. All rights reserved.
+    </div>
 
 </div>
-
-            </div>
-
-            <div class="copyright">
-                © 2026 Jammu Kashmir Policy Lab. All rights reserved.
-            </div>
-
-        </div>
 
     </footer>
 
